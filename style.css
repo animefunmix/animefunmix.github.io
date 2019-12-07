@@ -44,4 +44,8 @@ section {
 #main-text {
 
 }
-
+@media screen and (max-width: 1440px) {
+	#body {
+		background: url(img/img3.jpg) no-repeat;
+	}
+}
