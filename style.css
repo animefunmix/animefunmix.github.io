@@ -92,3 +92,25 @@ section {
 		height: 40px;
 	}
 }
+
+@media screen and (max-width: 1200px) {
+	#body {
+		background: url(img/img-phone.jpg) no-repeat;
+		background-size: cover;
+	}
+	section {
+		width: 600px;
+		height: 600px;
+	}
+	#nav {
+		display: flex;
+		justify-content: space-around;
+		width: 750px;
+		margin: 0 auto;
+	}
+	a {
+		font-size: 32px;
+		width: 200px;
+		height: 63px;
+	}
+}
