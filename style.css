@@ -45,9 +45,50 @@ section {
 
 }
 
+@media screen and (max-width: 667px) {
+	#body {
+		background: red;
+		background-size: cover;
+	}
+	section {
+		background: white;
+		width: 50%;
+		height: 570px;
+		margin: 0 auto;
+		border-radius: 30px;
+		box-shadow: 0 0 20px rgba(0,0,0,0.7);
+	}
+}
+
 @media screen and (max-width: 1440px) {
 	#body {
 		background: url(img/img3.jpg) no-repeat;
 		background-size: cover;
+	}
+	section {
+		width: 950px;
+		height: 570px;
+	}
+}
+
+@media screen and (max-width: 667px) {
+	#body {
+		background: url(img/img-phone.jpg) no-repeat;
+		background-size: cover;
+	}
+	section {
+		width: 350px;
+		height: 300px;
+	}
+	#nav {
+		display: flex;
+		justify-content: space-around;
+		width: 300px;
+		margin: 0 auto;
+	}
+	a {
+		font-size: 22px;
+		width: 85px;
+		height: 40px;
 	}
 }
